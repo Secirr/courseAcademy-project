@@ -1,0 +1,38 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Repositories/IRepository.cs">
+    <Files>
+      <File FileName="Repositories/Entity.cs" />
+      <File FileName="Repositories/IEntityTimestamps.cs" />
+      <File FileName="Repositories/EfRepositoryBase.cs" />
+      <File FileName="Repositories/IAsyncRepository.cs" />
+      <File FileName="Repositories/IQuery.cs" />
+      <File FileName="Repositories/IRepository.cs" Line="7" Column="22" />
+      <File FileName="Paging/BasePageableModel.cs" />
+      <File FileName="Paging/IQueryablePaginateExtensions.cs" />
+      <File FileName="Paging/Paginate.cs" />
+      <File FileName="Dynamic/DynamicQuery.cs" />
+      <File FileName="Dynamic/Filter.cs" />
+      <File FileName="Dynamic/IQueryableDynamicFilterExtensions.cs" />
+      <File FileName="Dynamic/Sort.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Core.Packages" expanded="True">
+            <Node name="Core.Persistance">
+              <Node name="Repositories" expanded="True">
+                <Node name="IRepository.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

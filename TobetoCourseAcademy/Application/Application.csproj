@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Features\" />
+    <None Remove="Features\Courses\" />
+    <None Remove="Features\Categories\" />
+    <None Remove="Features\CoursInstructors\" />
+    <None Remove="Features\Categories\Commands\" />
+    <None Remove="Features\Courses\Commands\" />
+    <None Remove="Features\CoursInstructors\Commands\" />
+    <None Remove="Features\Categories\Queries\" />
+    <None Remove="Features\Courses\Queries\" />
+    <None Remove="Features\CoursInstructors\Queries\" />
+    <None Remove="Features\Instructors\" />
+    <None Remove="Features\Instructors\Commands\" />
+    <None Remove="Features\Instructors\Queries\" />
+    <None Remove="Features\Categories\Commands\Create\" />
+    <None Remove="Features\Categories\Commands\Update\" />
+    <None Remove="Features\Categories\Commands\Delete\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\" />
+    <Folder Include="Features\Courses\" />
+    <Folder Include="Features\Categories\" />
+    <Folder Include="Features\CoursInstructors\" />
+    <Folder Include="Features\Categories\Commands\" />
+    <Folder Include="Features\Courses\Commands\" />
+    <Folder Include="Features\CoursInstructors\Commands\" />
+    <Folder Include="Features\Categories\Queries\" />
+    <Folder Include="Features\Courses\Queries\" />
+    <Folder Include="Features\CoursInstructors\Queries\" />
+    <Folder Include="Features\Instructors\" />
+    <Folder Include="Features\Instructors\Commands\" />
+    <Folder Include="Features\Instructors\Queries\" />
+    <Folder Include="Features\Categories\Commands\Create\" />
+    <Folder Include="Features\Categories\Commands\Update\" />
+    <Folder Include="Features\Categories\Commands\Delete\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Core.Persistance">
+      <HintPath>..\..\Tobeto.Core.Persistance\bin\Debug\net7.0\Core.Persistance.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+</Project>
