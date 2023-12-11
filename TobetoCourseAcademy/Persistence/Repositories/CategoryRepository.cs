@@ -3,7 +3,7 @@ using Application.Services.Repositories;
 using Core.Persistence.Repositories;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using Persistence.Contexts;
+using Persistence.Context;
 
 namespace Persistence.Repositories
 {
